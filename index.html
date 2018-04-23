@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-2" id="left"></div>
+        <div class="col-md-8 " id="mid">
+            <h1>Make an order:</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-8" id="menu">
+                    <div id="select1">
+                        <p>Выберите тесто</p>
+                        <select name="" class="selectMenu" id="testo" onchange="sum(this.id)">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div id="select2">
+                        <p>Выберите форму пиццы</p>
+                        <select name="" class="selectMenu" id="form" onchange="sum(this.id)">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div id="select3">
+                        <p>Выберите размер пиццы</p>
+                        <select name="" class="selectMenu" id="tip" onchange="sum(this.id)">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div id="select4">
+                        <p>Выберите тип пиццы</p>
+                        <select name="" class="selectMenu" id="size" onchange="sum(this.id)">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div id="select5">
+                        <p>Выберите дополнительные опции</p>
+                        <select name="" class="selectMenu" id="bonus" onchange="sum(this.id)">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4" id="result">
+                    <div class="col-md-12" id="order"></div>
+                    <div class="col-md-12" id="payment">
+                        <p>Сумма заказа</p>
+                        <input type="text" id="suma" value="0.00"> Lei<br>
+                        <button type="button" class="btn btn-success" id="pay">Оплатить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2" id="right"></div>
+    </div>
+
+<script src="main.js" type="module"></script>
+</body>
+</html>
+
+<style>
+
+</style>

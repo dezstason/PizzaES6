@@ -1,0 +1,73 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:  120px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#pay{
+    margin-left: 27px ;
+    width: 100px;
+}
+#order{
+    min-height: 100px;
+
+}
+#payment{
+    padding-left: 20%;
+}
+.btn-secondary{
+    width: 100%;
+    height: 40px;
+    margin-top: 2px;
+}
+#suma{
+    width: 100px;
+    margin-left: 25px ;
+    margin-bottom: 30px;
+    text-align: right;
+}
+#result{
+    margin-top: 80px;
+    padding-left: 50px;
+}
+#result p{
+    font-size: 24px;
+
+}
+#menu{
+    padding-top: 25px;
+    padding-left: 50px;
+}
+#menu p{
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.selectMenu{
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 35px;
+}
+#mid{
+
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 96vh;
+    height:auto;
+    padding-bottom: 25px;
+}
+
+.row{
+    margin: 0px;
+}
+body{
+    background: url(pizza1.jpg)no-repeat center top fixed;
+
+    background-size: auto;
+
+
+}
